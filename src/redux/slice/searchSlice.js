@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+import appReducer from "./appSlice";
+import chatReducer from "./chatSlice";
 
 const searchSlice =createSlice({
     name:'search',
